@@ -1,0 +1,14 @@
+<div id='forecast'>
+
+  <h1>{{city}}, {{state}}</h1>
+  <h2>{{summary}}</h2>
+  <p>The current temperature in {{address}} is {{temperature}}&deg;.</p>
+  
+</div>
+
+<h2>How bout another?</h2>
+
+<form action='/' method='POST'>
+  <input type='text' placeholder='Enter an address, city, or zipcode.' id='address' name='address'>
+  <button type='submit' id='search'>Tell Me</button>
+</form>
